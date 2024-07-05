@@ -1,0 +1,106 @@
+html {
+    background-image: url(../image/background.jpg);
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.content{    
+    /* height: 100dvh; */
+    text-align: center;
+}
+
+.rose-bouquet {
+    height: 400px;
+    width: 400px;
+}
+
+.heading {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px; 
+    color: black;  
+}
+
+.right {
+    text-align: right;
+}
+
+.home-paragraph {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid black;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.active {
+    background-color:rgb(179, 26, 54);
+    border-radius: 20px;
+    color: white;
+}
+
+.profile-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.profile-text {
+    text-align: center;
+    padding: 2%;
+}
+
+form {
+    color: white;
+    background-color: rgb(158, 36, 61);
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form select {
+    border-radius: 10px;
+    padding: 0.5%;
+}
+
+button#order {
+    border-radius: 10px;
+    padding: 1%;
+    background-color: rgb(158, 36, 61);
+    border: white solid 1px;
+    color: white;
+}
