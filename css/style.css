@@ -20,6 +20,10 @@ h1, h3 {
     width: 400px;
 }
 
+span:hover {
+    color: rgb(158, 36, 61);
+}
+
 .heading {
     text-align: center;
 }

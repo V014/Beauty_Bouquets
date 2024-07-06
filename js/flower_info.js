@@ -3,7 +3,7 @@ function flower(type) {
 
     switch (element.id) {
         case "splash_image":
-            alert('This is a red rose flower');
+            alert('Find out more about this flower in the gallery section which has a more descriptive take on each flower');
             break;
 
         case "white_rose":
