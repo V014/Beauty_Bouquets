@@ -1,5 +1,5 @@
 body {
-    background-image: url(../image/background.jpg);
+    background-color: rgb(226, 134, 153);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: sans-serif;
@@ -7,6 +7,9 @@ body {
     padding: 0;
 }
 
+h1, h3 {
+    color: rgb(158, 36, 61);
+}
 .content{    
     /* height: 100dvh; */
     text-align: center;
@@ -44,22 +47,32 @@ li a {
 .home-paragraph {
     padding-left: 15%;
     padding-right: 15%;
+    cursor: pointer;
 }
 
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border: 1px solid rgb(179, 26, 54);
+    border-radius: 10px;
     float: left;
-    width: 180px;
+    width: auto;
+}
+
+div.row-gallery {
+    margin: auto;
 }
 
 div.gallery:hover {
-    border: 1px solid black;
+    background-color: rgb(179, 26, 54);
+    color: white;
+    border-radius: 10px;
 }
 
 div.gallery img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 div.desc {
@@ -112,7 +125,6 @@ button#order:hover {
 footer {
     color: white;
     margin-top: 10%;
-    background-color: rgb(158, 36, 61);
     padding-top: 2%;
     height: 10dvh;
     border-radius: 10px;
