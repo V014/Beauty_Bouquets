@@ -12,6 +12,8 @@ h1, h3 {
 }
 .content{    
     text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .splash_image {
@@ -21,6 +23,7 @@ h1, h3 {
 
 span:hover {
     color: rgb(158, 36, 61);
+    cursor: pointer;
 }
 
 .heading {
