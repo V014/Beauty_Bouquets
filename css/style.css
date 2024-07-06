@@ -1,9 +1,10 @@
-html {
-    background-image: url(../image/background.jpg);
-}
-
 body {
+    background-image: url(../image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .content{    
@@ -22,8 +23,6 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 li {
@@ -39,6 +38,7 @@ li a {
 
 .right {
     text-align: right;
+    padding-right: 2%;
 }
 
 .home-paragraph {
@@ -86,7 +86,6 @@ div.desc {
 
 form {
     color: white;
-    background-color: rgb(158, 36, 61);
     padding: 2%;
     border-radius: 10px;
     text-align: center;
@@ -100,7 +99,21 @@ form select {
 button#order {
     border-radius: 10px;
     padding: 1%;
-    background-color: rgb(158, 36, 61);
+    background-color: transparent;
     border: white solid 1px;
     color: white;
+}
+
+button#order:hover {
+    background-color: rgb(158, 36, 61);
+    border: rgb(158, 36, 61) solid 1px;
+}
+
+footer {
+    color: white;
+    margin-top: 10%;
+    background-color: rgb(158, 36, 61);
+    padding-top: 2%;
+    height: 10dvh;
+    border-radius: 10px;
 }
