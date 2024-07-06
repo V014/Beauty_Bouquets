@@ -23,7 +23,7 @@ function reveal(type){
             break;
     
         default:
-            alert('Unknown plant')
+            document.getElementById("splash_image").src='../image/beautiful-natural-red-rose-flowers-bouquet.png';
             break;
     }
 }
