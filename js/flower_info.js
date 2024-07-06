@@ -2,7 +2,7 @@ function flower(type) {
     let element = document.getElementById(type);
 
     switch (element.id) {
-        case "red_rose":
+        case "splash_image":
             alert('This is a red rose flower');
             break;
 

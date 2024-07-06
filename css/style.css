@@ -15,7 +15,7 @@ h1, h3 {
     text-align: center;
 }
 
-.rose-bouquet {
+.splash_image {
     height: 400px;
     width: 400px;
 }
@@ -56,7 +56,6 @@ div.gallery {
     border: 1px solid rgb(179, 26, 54);
     border-radius: 10px;
     float: left;
-    width: auto;
 }
 
 div.row-gallery {
@@ -70,8 +69,6 @@ div.gallery:hover {
 }
 
 div.gallery img {
-    width: 100%;
-    height: auto;
     border-radius: 10px;
 }
 
