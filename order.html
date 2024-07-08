@@ -20,14 +20,15 @@
     </div>
     <div class="content">
         <form>
-            <label>Type of bouqet</label>
+            <label>Type of bouquet</label>
             <br />
-            <select name="type" id="type" onchange="showflower(value)">
-                <option value="Choose">Choose flower</option>
-                <option id="flower-wreath" value="flower-wreath">Flower Wreath</option>
+            <select name="type" id="type" onchange="show_flower(value)">
+                <option id="choose" value="choose">Choose flower</option>
                 <option id="red-roses" value="red-roses">Red Roses</option>
                 <option id="white-roses" value="white-roses">White Roses</option>
+                <option id="yellow-roses" value="yellow-roses">Yellow Roses</option>
                 <option id="corsage" value="corsage">Corsage</option>
+                <option id="flower-wreath" value="flower-wreath">Flower Wreath</option>
                 <option id="flower-basket" value="flower-basket">Flower Basket</option>
             </select>
             <br /><br />
@@ -41,21 +42,23 @@
             <br /><br />
             <label>Quantity</label>
             <br />
-            <select name="type" id="type">
-                <option value="Quantity">Set Quantity</option>
-                <option value="1">1</option>
-                <option value="5">5</option>
-                <option value="12">12</option>
-                <option value="20">20</option>
+            <select name="type" id="type" onchange="show_price(value)">
+                <option id="Quantity" value="Quantity">Set Quantity</option>
+                <option id="1" value="1">1 Bunch</option>
+                <option id="5" value="5">5 Bunches</option>
+                <option id="12" value="12">12 Dozens</option>
             </select>
             <br><br>
-            <button onclick="order()" id="order" class="oder">Add to Cart</button>
+            <button onclick="aet_order()" id="order" class="oder">Add to Cart</button>
         </form>
-        <img src="image/loading.gif" alt="Chosen flower" id="chosen_flower" class="orderflower">
+        <img src="image/loading.gif" alt="Chosen flower" id="chosen_flower" class="order_flower">
+        <p id="price" class="price">Total: MK 0.00</p>
     </div>
     <footer>
         <marquee>Beauty Bouquets Copyright &copy; 2024</marquee>
     </footer>
 </body>
 <script src="js/flower_type.js"></script>
+<script src="js/calculate_price.js"></script>
+<script src="js/order.js"></script>
 </html>

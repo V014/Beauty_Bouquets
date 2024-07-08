@@ -10,6 +10,10 @@ function reveal(type){
             document.getElementById("splash_image").src='../image/White-Roses-Bouquet.png';
             break;
 
+        case "yellow-roses":
+            document.getElementById("splash_image").src='../image/yellow-rose-flower.png';
+            break;
+
         case "flower-baskets":
             document.getElementById("splash_image").src='../image/flower-basket.png';
             break;

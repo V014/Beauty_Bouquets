@@ -25,9 +25,14 @@ h1, h3 {
     cursor:pointer;
 }
 
-.orderflower {
+.order_flower {
     width: 200px;
     height: 200px;
+}
+
+.price {
+    color: rgb(158, 36, 61);
+    font-weight: bold;
 }
 
 span:hover {

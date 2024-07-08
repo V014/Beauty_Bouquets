@@ -1,4 +1,4 @@
-function showflower(type) {
+function show_flower(type) {
     let element = document.getElementById(type);
     
     switch (element.value) {
@@ -8,6 +8,10 @@ function showflower(type) {
 
         case "white-roses":
             document.getElementById("chosen_flower").src='../image/White-Roses-Bouquet.png';
+            break;
+
+        case "yellow-roses":
+            document.getElementById("chosen_flower").src='../image/sold_out.png';
             break;
 
         case "flower-basket":
