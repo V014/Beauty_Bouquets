@@ -21,6 +21,15 @@ h1, h3 {
     width: 400px;
 }
 
+.splash_image:hover {
+    cursor:pointer;
+}
+
+.orderflower {
+    width: 200px;
+    height: 200px;
+}
+
 span:hover {
     color: rgb(158, 36, 61);
     cursor: pointer;
