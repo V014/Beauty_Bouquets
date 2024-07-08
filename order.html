@@ -24,10 +24,11 @@
             <br />
             <select name="type" id="type" onchange="showflower(value)">
                 <option value="Choose">Choose flower</option>
-                <option id="Wreath" value="Wreath">Wreath</option>
-                <option id="RedRose" value="RedRose">Red Roses</option>
-                <option id="WhiteRose" value="WhiteRose">White Roses</option>
-                <option id="Corsage" value="Corsage">Corsage</option>
+                <option id="flower-wreath" value="flower-wreath">Flower Wreath</option>
+                <option id="red-roses" value="red-roses">Red Roses</option>
+                <option id="white-roses" value="white-roses">White Roses</option>
+                <option id="corsage" value="corsage">Corsage</option>
+                <option id="flower-basket" value="flower-basket">Flower Basket</option>
             </select>
             <br /><br />
             <label>Type</label>
@@ -50,7 +51,7 @@
             <br><br>
             <button onclick="order()" id="order" class="oder">Add to Cart</button>
         </form>
-        <img src="" alt="Chosen flower" id="chosen_flower" class="orderflower">
+        <img src="image/loading.gif" alt="Chosen flower" id="chosen_flower" class="orderflower">
     </div>
     <footer>
         <marquee>Beauty Bouquets Copyright &copy; 2024</marquee>
